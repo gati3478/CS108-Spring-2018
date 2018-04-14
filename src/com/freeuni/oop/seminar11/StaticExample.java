@@ -10,6 +10,7 @@ public class StaticExample {
 
         try {
             Class.forName("com.freeuni.oop.seminar11.MySQLDriver");
+            new MySQLDriver();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

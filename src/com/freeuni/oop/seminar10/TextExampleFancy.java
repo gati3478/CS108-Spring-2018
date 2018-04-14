@@ -23,10 +23,9 @@ public class TextExampleFancy {
             @Override
             public void run() {
                 JTextField field1 = new JTextField(20);
-                JTextField field2 = new JTextField(20);
+                JTextField field2 = new JTextField(22);
 
                 final JTextField infoField = new JTextField(15);
-
                 field2.setDocument(field1.getDocument());
 
                 Document doc = field1.getDocument();
