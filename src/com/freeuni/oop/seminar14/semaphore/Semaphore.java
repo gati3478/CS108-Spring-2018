@@ -29,7 +29,7 @@ public class Semaphore {
         try {
             if (available <= 0) {
                 Condition unavailable = lock.newCondition();
-                conditions.push(unavailable); // OR use offer(T elem)
+                conditions.push(unavailable);
                 unavailable.await();
             }
 
