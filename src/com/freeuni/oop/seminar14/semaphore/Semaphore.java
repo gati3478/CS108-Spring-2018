@@ -1,14 +1,12 @@
 package com.freeuni.oop.seminar14.semaphore;
 
-import java.util.LinkedList;
-import java.util.Objects;
-import java.util.Queue;
+import java.util.Stack;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 @SuppressWarnings("WeakerAccess")
 public class Semaphore {
-    private final Queue<Condition> conditions = new LinkedList<>();
+    private final Stack<Condition> conditions = new Stack<>();
     private final ReentrantLock lock = new ReentrantLock();
     private int available;
 
@@ -31,7 +29,7 @@ public class Semaphore {
         try {
             if (available <= 0) {
                 Condition unavailable = lock.newCondition();
-                conditions.add(unavailable); // OR use offer(T elem)
+                conditions.push(unavailable); // OR use offer(T elem)
                 unavailable.await();
             }
 
@@ -51,7 +49,7 @@ public class Semaphore {
         try {
             ++available;
             if (conditions.size() > 0) {
-                Objects.requireNonNull(conditions.poll()).signal();
+                conditions.pop().signal();
                 // signal(), so we can wake only *one* thread and not the rest
             }
         } finally {
