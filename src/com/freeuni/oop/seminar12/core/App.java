@@ -7,7 +7,6 @@ import com.freeuni.oop.seminar12.core.dao.CourseDao;
 import com.freeuni.oop.seminar12.core.dao.StudentDao;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 import java.sql.SQLException;

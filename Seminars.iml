@@ -17,8 +17,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="mysql-connector-java-5.1.41-bin" level="project" />
-    <orderEntry type="library" name="com.google.code.gson:gson:2.8.0" level="project" />
-    <orderEntry type="library" name="org.apache.commons:commons-dbcp2:2.1.1" level="project" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="org.apache.commons:commons-dbcp2:2.2.0" level="project" />
+    <orderEntry type="library" name="mysql:mysql-connector-java:6.0.6" level="project" />
   </component>
 </module>
