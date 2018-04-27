@@ -85,5 +85,8 @@ public class ProducerConsumerService {
         // Starting consumer to consume messages from queue
         new Thread(consumer).start();
         System.out.println("Producer and Consumer has been started");
+        
+        // Note: Try implementing the given problem using semaphores
+        // Note: Try implementing the given problem without using semaphores or other synchronization mechanisms
     }
 }
