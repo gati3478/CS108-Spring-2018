@@ -29,7 +29,7 @@ public class StopWorker extends Thread {
             // 2. Sleep a little (simulate doing something slow)
             // InterruptedException -> break
             try {
-                Thread.sleep(1);
+                Thread.sleep(100);
             } catch (InterruptedException ex) {
                 System.out.println(getName() + " interrupted exception");
                 break;

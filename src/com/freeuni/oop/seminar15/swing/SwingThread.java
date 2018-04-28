@@ -1,8 +1,9 @@
 package com.freeuni.oop.seminar15.swing;// SwingThread.java
 
-import java.awt.*;
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /*
  Demonstrates using workers and the swing thread,
@@ -159,7 +160,12 @@ class SwingThread extends JFrame {
         } catch (Exception ignored) {
         }
 
-        new SwingThread();
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new SwingThread();
+            }
+        });
     }
 
 }
