@@ -338,6 +338,8 @@
         <option value="$PROJECT_DIR$/src/main/java/seminar12/core/App.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
       </list>
     </option>
   </component>
@@ -613,7 +615,7 @@
       <updated>1525455229416</updated>
       <workItem from="1525455232161" duration="633000" />
       <workItem from="1525455897426" duration="283000" />
-      <workItem from="1525456350774" duration="354000" />
+      <workItem from="1525456350774" duration="616000" />
     </task>
     <servers />
   </component>
@@ -623,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1270000" />
+    <option name="totallyTimeSpent" value="1532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
@@ -634,7 +636,7 @@
       <window_info anchor="right" id="Cargo" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3288948" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32756326" />
@@ -775,6 +777,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/checkstyle-idea.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
