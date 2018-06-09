@@ -44,6 +44,7 @@ public class ChatServer implements Runnable {
             try {
                 System.out.println("Waiting for a client ...");
                 if (thread.isInterrupted()) {
+                    stop();
                     break;
                 }
                 createHandler(server.accept());
